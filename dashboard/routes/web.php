@@ -23,7 +23,6 @@ Route::middleware([AuthArea::class])->group(function () {
     Route::get('/dashboard', [AuthController::class, "dashboard"])->name('welcome');
     Route::get('/JobList', [AutherController::class, "joblist"])->name('joblist');
     Route::get('users', [AutherController::class, 'index'])->name('index');
-
 });
 
 
