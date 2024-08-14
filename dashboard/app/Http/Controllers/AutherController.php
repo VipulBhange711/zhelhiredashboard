@@ -14,7 +14,7 @@ class AutherController extends Controller
     public function index(Request $request)
     {
         if ($request->ajax()) {
-            $data = DB::table('test')->get();
+            $data = DB::table('candidate_data')->get();
             return DataTables::of($data)
                     ->addIndexColumn()
                     ->addColumn('action', function($row){
@@ -27,6 +27,6 @@ class AutherController extends Controller
                     ->make(true);
         }
         
-        return view('AutherAdmin.jobList');
+        // return view('AutherAdmin.jobList');
     }
 }

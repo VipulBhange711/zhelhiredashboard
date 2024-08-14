@@ -31,21 +31,22 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-12">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0">Dashboard </h1>
 
             <table class="table table-bordered data-table">
         <thead>
             <tr>
                 <th>No</th>
-                <th>Name</th>
+                <th>First_Name</th>
+                <th>Last_Name</th>
                 <th>Email</th>
-                <th>Email</th>
-                <th>Email</th>
-                <th>Email</th>
+                <th>Contact</th>
                 <th width="100px">Action</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="show" >
+          
+   
         </tbody>
     </table>
           </div><!-- /.col -->
@@ -82,14 +83,31 @@
         ajax: "{{ route('index') }}",
         columns: [
             {data: 'id', name: 'id'},
-            {data: 'first_name', name: 'name'},
-            {data: 'last_name', name: 'last'},
-            {data: 'email', name: 'email'},
-            {data: 'gender', name: 'gender'},
-            {data: 'ip_address', name: 'ip_address'},
-            {data: 'action', name: 'action', orderable: false, searchable: false},
+            {data: 'First_Name', name: 'name'},
+            {data: 'Last_Name', name: 'last'},
+            {data: 'Email', name: 'email'},
+            {data: 'Contact', name: 'Contact'},
+            {data: "id" , render : function ( data, type, row, meta ) {
+              return '<a  onclick="editUser()"  class="btn btn-success" > <i class="fa fa-edit"></i></a>';
+            }
+          },
+          
+          
+          
         ]
     });  
     
   });
+
+function editUser(){
+  $("#show").append("<tr><td>No</td><td>First_Name</td><td>Last_Name</td><td>Email</td><td>Contact</td><td>Action</td></tr>");
+}
+
+
+
 </script>
+
+
+	
+	
+	
