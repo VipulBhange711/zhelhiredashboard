@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('Candidate_data',function(Blueprint $table){
-            $table->bigIncrements('id');
-            $table->string('First_Name',length:100);
-            $table->string('Last_Name',length:100);
-            $table->string('Email',length:100);
-            $table->integer('Contact');
-            $table->dateTime('created_at', precision: 0);
-        });
+        // Schema::create('Candidate_data',function(Blueprint $table){
+        //     $table->integer('id');
+        //     $table->string('First_Name',length:100);
+        //     $table->string('Last_Name',length:100);
+        //     $table->string('Email',length:100);
+        //     $table->integer('Contact');
+        //     $table->dateTime('created_at', precision: 0);
+        // });
     }
 
     /**
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('Candidate_data');
+        // Schema::dropIfExists('Candidate_data');
     }
 };

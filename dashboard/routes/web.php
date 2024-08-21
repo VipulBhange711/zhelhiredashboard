@@ -26,6 +26,8 @@ Route::get('/contact', [MyController::class, 'contact'])->name('contact');
 Route::get('/services', [MyController::class, 'services'])->name('services');
 Route::get('/about', [MyController::class, 'about'])->name('about');
 Route::get('/vip', [MyController::class, 'vip'])->name('vip');
+Route::view('/viewCourse','uiPages.view_courses')->name('viewCourses');
+Route::post('/inquery', [MyController::class, 'inquery'])->name('inquery.post');
 
 
 Route::middleware([AuthArea::class])->group(function () {

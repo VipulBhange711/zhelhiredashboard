@@ -3,24 +3,49 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use DB;
+use Illuminate\Support\Facades\DB;
+
 
 class MyController extends Controller
 {
-    public function home(){
+    public function home()
+    {
         return view('uiPages.index');
     }
-    public function contact(){
+    public function contact()
+    {
         return view('uiPages.contact-us');
     }
-    public function services(){
+    public function services()
+    {
         return view('uiPages.our-services');
     }
-    public function about(){
+    public function about()
+    {
         return  view('uiPages.about-us');
     }
-    public function vip(){
+    public function vip()
+    {
         $table = DB::table('testdb')->get();
         return  $table;
+    }
+
+    public function inquery(Request $request)
+    {
+        $name =  $request->name;
+        $email =  $request->email;
+        $contact =  $request->contact;
+        $message =  $request->message;
+
+        $data = array(
+            'inq_name' => $name,
+            'inq_email' => $email,
+            'inq_contact' => $contact,
+            'inq_message' => $message
+        );
+
+      $success =   DB::table('inquiry_form')->insert($data);
+
+        return response()->json(['success' => 'Message sent successfully!', 'done'=>$success]);
     }
 }

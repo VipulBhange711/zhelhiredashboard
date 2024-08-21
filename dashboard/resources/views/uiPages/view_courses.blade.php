@@ -63,7 +63,17 @@
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
 
+    <!--
 
+TemplateMo 573 EduWell
+
+
+
+https://templatemo.com/tm-573-eduwell
+
+
+
+-->
 
 </head>
 
@@ -169,341 +179,7 @@
     </header>
 
     <!-- ***** Header Area End ***** -->
-
-
-
-    <!-- ***** Main Banner Area Start ***** -->
-
-    <section class="main-banner" id="top">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-6 align-self-center">
-
-                    <div class="header-text">
-
-                        <h6>Welcome to Zhelhire Services</h6>
-
-                        <h2>Best Place to Grow Your <em>Career!</em></h2>
-
-                        <div class="main-button-gradient">
-
-                            <a href="{{ route('contact') }}">Join Us Now!</a>
-
-                            {{-- <div class="scroll-to-section"></div> --}}
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6">
-
-                    <div class="right-image">
-
-                        <img src="assets/images/banner-right-image.png" alt="">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ***** Main Banner Area End ***** -->
-
-
-
-    <section class="services" id="services">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-12">
-
-                    <div class="section-heading">
-
-                        <h6>Our Services</h6>
-
-                        <h4>Provided <em>Services</em></h4>
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-12">
-
-                    <div class="owl-service-item owl-carousel">
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-01.png" alt="">
-
-                                </div>
-
-                                <h4>Placement Services:</h4>
-
-                                <p>ZhelHire connects talent with opportunity, ensuring a perfect fit for both candidates
-
-                                    and companies. Let us handle your placements seamlessly, so you can focus on what
-
-                                    matters most.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-02.png" alt="">
-
-                                </div>
-
-                                <h4>Projects</h4>
-
-                                <p>From conception to completion, ZhelHire delivers projects on time and within budget,
-
-                                    with meticulous attention to detail and expert management at every step.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-03.png" alt="">
-
-                                </div>
-
-                                <h4>Online Training</h4>
-
-                                <p>Empower your team with ZhelHire's dynamic online courses, designed to enhance skills
-
-                                    and drive professional growth in today's competitive landscape.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-04.png" alt="">
-
-                                </div>
-
-                                <h4>Career Guidance</h4>
-
-                                <p>Navigate your career journey with confidence with ZhelHire's personalized guidance
-
-                                    and strategic planning, helping you reach your full potential in your chosen field.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-01.png" alt="">
-
-                                </div>
-
-                                <h4>Placement Services:</h4>
-
-                                <p>ZhelHire connects talent with opportunity, ensuring a perfect fit for both candidates
-
-                                    and companies. Let us handle your placements seamlessly, so you can focus on what
-
-                                    matters most.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-02.png" alt="">
-
-                                </div>
-
-                                <h4>Projects</h4>
-
-                                <p>From conception to completion, ZhelHire delivers projects on time and within budget,
-
-                                    with meticulous attention to detail and expert management at every step.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-03.png" alt="">
-
-                                </div>
-
-                                <h4>Online Training</h4>
-
-                                <p>Empower your team with ZhelHire's dynamic online courses, designed to enhance skills
-
-                                    and drive professional growth in today's competitive landscape.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-04.png" alt="">
-
-                                </div>
-
-                                <h4>Career Guidance</h4>
-
-                                <p>Navigate your career journey with confidence with ZhelHire's personalized guidance
-
-                                    and strategic planning, helping you reach your full potential in your chosen field.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-01.png" alt="">
-
-                                </div>
-
-                                <h4>Placement Services:</h4>
-
-                                <p>ZhelHire connects talent with opportunity, ensuring a perfect fit for both candidates
-
-                                    and companies. Let us handle your placements seamlessly, so you can focus on what
-
-                                    matters most.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-02.png" alt="">
-
-                                </div>
-
-                                <h4>Projects</h4>
-
-                                <p>From conception to completion, ZhelHire delivers projects on time and within budget,
-
-                                    with meticulous attention to detail and expert management at every step.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-03.png" alt="">
-
-                                </div>
-
-                                <h4>Online Training</h4>
-
-                                <p>Empower your team with ZhelHire's dynamic online courses, designed to enhance skills
-
-                                    and drive professional growth in today's competitive landscape.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-04.png" alt="">
-
-                                </div>
-
-                                <h4>Career Guidance</h4>
-
-                                <p>Navigate your career journey with confidence with ZhelHire's personalized guidance
-
-                                    and strategic planning, helping you reach your full potential in your chosen field.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
+    <!-- ***** View Courses ***** -->
 
 
     <section class="our-courses" id="courses">
@@ -559,7 +235,6 @@
                                     <ul class="nacc">
 
                                         <li class="active">
-
                                             <div>
 
                                                 <div class="left-image">
@@ -786,243 +461,21 @@
 
     </section>
 
+    <!-- ***** View Courses ***** -->
 
 
-    <section class="simple-cta">
 
-        <div class="container">
 
-            <div class="row">
 
-                <div class="col-lg-5 offset-lg-1">
 
-                    <div class="left-image">
-
-                        <img src="assets/images/cta-left-image.png" alt="">
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-5 align-self-center">
-
-                    <h6>Get the Career Hike Right Now!</h6>
-
-                    <h4>Course with <b><i>100%</b></i> Job Guarantee </h4>
-
-                    <p>Explore ZhelHire's specialized training program designed to ensure not just skill acquisition but
-
-                        also secure employment opportunities.</p>
-
-                    <div class="white-button">
-
-                        <a href="">View Courses</a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    @include('uiPages.include.student_review')
-
-
-
-    <section class="contact-us" id="contact-section">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-8">
-
-                    <div id="map">
-
-
-
-                        <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-
-                        <iframe
-
-                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=60-B,%20Dighori,%20Nagpur,%20Maharashtra+(Bhange%20Job%20Placement)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-
-                            width="100%" height="420px" frameborder="0"
-
-                            style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
-
-
-
-                        <div class="row">
-
-                            <div class="col-lg-4 offset-lg-1">
-
-                                <div class="contact-info">
-
-                                    <div class="icon">
-
-                                        <i class="fa fa-phone"></i>
-
-                                    </div>
-
-                                    <h4>Phone</h4>
-
-                                    <span>+91 9371723492</span>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-4">
-
-                                <div class="contact-info">
-
-                                    <div class="icon">
-
-                                        <i class="fa fa-phone"></i>
-
-                                    </div>
-
-                                    <h4>Mobile</h4>
-
-                                    <span>+91 9371723492</span>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-4">
-
-                    <form id="contact" action="" method="post">
-                        @csrf
-                        <div class="row">
-
-                            <div class="col-lg-12">
-
-                                <div class="section-heading">
-
-                                    <h6>Contact us</h6>
-
-                                    <h4>Say <em>Hello</em></h4>
-
-                                    <p>
-
-                                        If you're interested in learning more about our courses or have any questions, feel free to reach out to us. You can contact us through.</p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-12">
-
-                                <fieldset>
-
-                                    <input type="name" name="name" id="name" placeholder="Full Name"
-
-                                        autocomplete="on" required>
-
-                                </fieldset>
-
-                            </div>
-
-                            <div class="col-lg-12">
-
-                                <fieldset>
-                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                        placeholder="Your Email" required>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-lg-12">
-
-                                <fieldset>
-                                    <input type="text" name="contact" id="name" pattern="[^ @]*@[^ @]*"
-                                        placeholder="Your Contact" required>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-lg-12">
-
-                                <fieldset>
-
-                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
-
-                                </fieldset>
-
-                            </div>
-
-                            <div class="col-lg-12">
-
-                                <fieldset>
-
-                                    <button type="submit" id="saveBtn" class="main-gradient-button">Send
-
-                                        Message</button>
-
-                                </fieldset>
-
-                            </div>
-
-                        </div>
-
-                    </form>
-
-                </div>
-
-                <div class="col-lg-12">
-
-                    <ul class="social-icons">
-
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-
-                        <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fa fa-linkedin"></i></a></li>
-
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-
-                    </ul>
-
-                </div>
-
-                <div class="col-lg-12">
-
-                    <p class="copyright">Copyright © 2024 zhelhire services., Ltd. All Rights Reserved.
-
-
-
-                        <br>Design: <a rel="sponsored" href="zhelhire.sire" target="_blank">Bhange Job Placement</a>
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <!-- Scripts -->
-
-    <!-- Bootstrap core JavaScript -->
 
     <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="assets/js/isotope.min.js"></script>
 
     <script src="assets/js/owl-carousel.js"></script>
 
@@ -1035,8 +488,6 @@
     <script src="assets/js/slick-slider.js"></script>
 
     <script src="assets/js/custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
-
 
     <script>
         //according to loftblog tut
@@ -1127,44 +578,6 @@
 
             checkSection();
 
-        });
-    </script>
-
-    <script>
-        $('#saveBtn').click(function(e) {
-            e.preventDefault();
-
-            $.ajax({
-                data: $('#contact').serialize(),
-                url: "{{route('inquery.post')}}",
-                type: "POST",
-                dataType: 'json',
-                success: function(done) {
-
-                    console.warn(done);
-
-
-                    $('#contact').load(location.href + " #contact");
-
-                    $(function() {
-                        var Toast = Swal.mixin({
-                            toast: true,
-                            position: 'top-end',
-                            showConfirmButton: false,
-                            timer: 3000
-                        });
-
-
-                        Toast.fire({
-                            icon: 'success',
-                            title: 'Got It.. We Will Reply Soon....'
-                        })
-                    });
-                    // Swal.fire("SweetAlert2 is working!");
-
-
-                },
-            });
         });
     </script>
 
