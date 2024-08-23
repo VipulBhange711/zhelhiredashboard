@@ -1,178 +1,6 @@
-<!DOCTYPE html>
+@include('uiPages.include.header')
+@include('uiPages.include.navbar')
 
-<html lang="en">
-
-
-
-<head>
-
-
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Find the best job placement consultants and training centers in Nagpur, Maharashtra. ZhelHire Services and Bhange Job Placement help you secure your dream job and offer online coaching classes and training.">
-    <meta name="author" content="ZhelHire Services, Bhange Job Placement">
-    <meta name="keywords" content="Nagpur job placement, job consultants Nagpur, job placement services, career consultancy Nagpur, online coaching, training center Nagpur">
-    <meta name="robots" content="index, follow">
-
-    <title>Nagpur Job Placement Consultants | ZhelHire Services & Bhange Job Placement</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <!-- Open Graph Meta Tags for better social media integration -->
-    <meta property="og:title" content="Nagpur Job Placement Consultants | ZhelHire Services & Bhange Job Placement">
-    <meta property="og:description" content="Find the best job placement consultants and training centers in Nagpur, Maharashtra. ZhelHire Services and Bhange Job Placement help you secure your dream job and offer online coaching classes and training.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://zhelhire.site/">
-    <meta property="og:image" content="https://zhelhire.site/image.jpg">
-    <meta property="og:site_name" content="ZhelHire Services, Bhange Job Placement">
-    <meta property="og:locale" content="en_US">
-
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Nagpur Job Placement Consultants | ZhelHire Services & Bhange Job Placement">
-    <meta name="twitter:description" content="Find the best job placement consultants and training centers in Nagpur, Maharashtra. ZhelHire Services and Bhange Job Placement help you secure your dream job and offer online coaching classes and training.">
-    <meta name="twitter:image" content="https://zhelhire.site/image.jpg">
-
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Nagpur Job Placement Consultants | ZhelHire Services & Bhange Job Placement">
-    <meta itemprop="description" content="Find the best job placement consultants and training centers in Nagpur, Maharashtra. ZhelHire Services and Bhange Job Placement help you secure your dream job and offer online coaching classes and training.">
-    <meta itemprop="image" content="https://zhelhire.site/image.jpg">
-
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-
-
-    <title>Zhelhire Services</title>
-
-
-
-    <!-- Bootstrap core CSS -->
-
-
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-
-
-
-
-</head>
-
-<style>
-
-
-
-</style>
-
-<body>
-
-
-
-
-
-    <!-- ***** Header Area Start ***** -->
-
-    <header class="header-area header-sticky">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-12">
-
-                    <nav class="main-nav">
-
-                        <!-- ***** Logo Start ***** -->
-
-                        <a href="index.html" class="logo">
-
-                            <img src="assets/images/templatemo-eduwell.png" alt="Zhelhire Logo">
-
-
-
-                        </a>
-
-                        <!-- ***** Logo End ***** -->
-
-                        <!-- ***** Menu Start ***** -->
-
-                        <ul class="nav">
-
-                            <li class="scroll-to-section"><a href="{{ route('home') }}" class="active">Home</a></li>
-
-                            <li class="scroll-to-section"><a href="{{ route('home') }}#services">Services</a></li>
-
-                            <li class="scroll-to-section"><a href="{{ route('viewCourses') }}">Courses</a></li>
-
-                            <li class="has-sub">
-
-                                <a href="javascript:void(0)">Pages</a>
-
-                                <ul class="sub-menu">
-
-                                    <li><a href="{{ route('home') }}">Home</a></li>
-
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
-
-                                    <li><a href="{{ route('services') }}">Our Services</a></li>
-
-                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
-
-                                </ul>
-
-                            </li>
-
-                            <li class="scroll-to-section"><a href="{{ route('home') }}#testimonials">Testimonials</a>
-
-                            </li>
-
-                            <li class="scroll-to-section"><a href="{{ route('home') }}#contact-section">Contact Us</a>
-                            <li class=""><a href="{{ route('login') }}">Login</a>
-
-                            </li>
-
-
-
-                            </li>
-
-
-
-                        </ul>
-
-
-
-                        <a class='menu-trigger'>
-
-                            <span>Menu</span>
-
-                        </a>
-
-                        <!-- ***** Menu End ***** -->
-
-                    </nav>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </header>
-
-    <!-- ***** Header Area End ***** -->
-
-
-
-    <!-- ***** Main Banner Area Start ***** -->
 
     <section class="main-banner" id="top">
 
@@ -184,7 +12,7 @@
 
                     <div class="header-text">
 
-                        <h6>Welcome to Zhelhire Services</h6>
+                        <h1 class="display-1">Welcome to Zhelhire Services</h1>
 
                         <h2>Best Place to Grow Your <em>Career!</em></h2>
 
@@ -192,7 +20,7 @@
 
                             <a href="{{ route('contact') }}">Join Us Now!</a>
 
-                            {{-- <div class="scroll-to-section"></div> --}}
+                            
 
                         </div>
 
@@ -220,289 +48,7 @@
 
 
 
-    <section class="services" id="services">
 
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-12">
-
-                    <div class="section-heading">
-
-                        <h6>Our Services</h6>
-
-                        <h4>Provided <em>Services</em></h4>
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-12">
-
-                    <div class="owl-service-item owl-carousel">
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-01.png" alt="">
-
-                                </div>
-
-                                <h4>Placement Services:</h4>
-
-                                <p>ZhelHire connects talent with opportunity, ensuring a perfect fit for both candidates
-
-                                    and companies. Let us handle your placements seamlessly, so you can focus on what
-
-                                    matters most.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-02.png" alt="">
-
-                                </div>
-
-                                <h4>Projects</h4>
-
-                                <p>From conception to completion, ZhelHire delivers projects on time and within budget,
-
-                                    with meticulous attention to detail and expert management at every step.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-03.png" alt="">
-
-                                </div>
-
-                                <h4>Online Training</h4>
-
-                                <p>Empower your team with ZhelHire's dynamic online courses, designed to enhance skills
-
-                                    and drive professional growth in today's competitive landscape.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-04.png" alt="">
-
-                                </div>
-
-                                <h4>Career Guidance</h4>
-
-                                <p>Navigate your career journey with confidence with ZhelHire's personalized guidance
-
-                                    and strategic planning, helping you reach your full potential in your chosen field.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-01.png" alt="">
-
-                                </div>
-
-                                <h4>Placement Services:</h4>
-
-                                <p>ZhelHire connects talent with opportunity, ensuring a perfect fit for both candidates
-
-                                    and companies. Let us handle your placements seamlessly, so you can focus on what
-
-                                    matters most.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-02.png" alt="">
-
-                                </div>
-
-                                <h4>Projects</h4>
-
-                                <p>From conception to completion, ZhelHire delivers projects on time and within budget,
-
-                                    with meticulous attention to detail and expert management at every step.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-03.png" alt="">
-
-                                </div>
-
-                                <h4>Online Training</h4>
-
-                                <p>Empower your team with ZhelHire's dynamic online courses, designed to enhance skills
-
-                                    and drive professional growth in today's competitive landscape.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-04.png" alt="">
-
-                                </div>
-
-                                <h4>Career Guidance</h4>
-
-                                <p>Navigate your career journey with confidence with ZhelHire's personalized guidance
-
-                                    and strategic planning, helping you reach your full potential in your chosen field.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-01.png" alt="">
-
-                                </div>
-
-                                <h4>Placement Services:</h4>
-
-                                <p>ZhelHire connects talent with opportunity, ensuring a perfect fit for both candidates
-
-                                    and companies. Let us handle your placements seamlessly, so you can focus on what
-
-                                    matters most.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-02.png" alt="">
-
-                                </div>
-
-                                <h4>Projects</h4>
-
-                                <p>From conception to completion, ZhelHire delivers projects on time and within budget,
-
-                                    with meticulous attention to detail and expert management at every step.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-03.png" alt="">
-
-                                </div>
-
-                                <h4>Online Training</h4>
-
-                                <p>Empower your team with ZhelHire's dynamic online courses, designed to enhance skills
-
-                                    and drive professional growth in today's competitive landscape.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="item">
-
-                            <div class="service-item">
-
-                                <div class="icon">
-
-                                    <img src="assets/images/service-icon-04.png" alt="">
-
-                                </div>
-
-                                <h4>Career Guidance</h4>
-
-                                <p>Navigate your career journey with confidence with ZhelHire's personalized guidance
-
-                                    and strategic planning, helping you reach your full potential in your chosen field.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
 
 
 
@@ -830,7 +376,112 @@
 
 
 
-    @include('uiPages.include.student_review')
+    <section class="testimonials" id="testimonials">
+
+    <div class="container">
+
+        <div class="row">Learner
+
+            <div class="col-lg-12">
+
+                <div class="section-heading">
+
+                    <h6>Testimonials</h6>
+
+                    <h4>What They <em>Think</em></h4>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-12">
+
+                <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
+
+                    <div>
+
+                        <img src="assets/images/kamakshi.png" style="width: 40%; height:40%; margin-left:26%; margin-bottom:-10px" class="rounded" alt="">
+
+                        <div class="item">
+
+                            <p>“ZhelHire Computer institute is the best institute till date I have ever experienced. They teaches everything so perfectly and also make sure that every student can understand it”</p>
+
+                            <h4>Kamakshi Pal</h4>
+
+                            <span>Learner &amp; Alumni </span>
+
+                            <img src="assets/images/quote.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <img src="assets/images/one.jpg" style="width: 40%; height:40%; margin-left:26%; margin-bottom:-10px" class="rounded" alt="">
+
+                        <div class="item">
+
+                            <p>“It's best institute. Sir is so cooperative with students. Environment is friendly and loved the teaching.”</p>
+
+                            <h4>Radhika Gupta</h4>
+
+                            <span>Learner &amp; Alumni </span>
+
+                            <img src="assets/images/quote.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <img src="assets/images/two.jpg" style="width: 40%; height:40%; margin-left:26%; margin-bottom:-10px" class="rounded" alt="">
+
+                        <div class="item">
+
+                            <p>“ZhelHire Computer institute is the best place to learn coding and and to get equipped with programming.”</p>
+
+                            <h4>Pravin Shekh </h4>
+
+                            <span>Learner &amp; Alumni </span>
+
+                            <img src="assets/images/quote.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <img src="assets/images/three.jpg" style="width: 40%; height:40%; margin-left:26%; margin-bottom:-10px" class="rounded" alt="">
+
+                        <div class="item">
+
+                            <p>“I had a great experience at ZhelHire Computer Institute  Nagpur.
+
+                                The staff was extremely helpful and knowledgeable. They were patient and explained the concepts in detail.”</p>
+
+                            <h4>Kajal Mehende</h4>
+
+                            <span>Learner &amp; Alumni </span>
+
+                            <img src="assets/images/quote.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
 
 
 

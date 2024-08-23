@@ -1,5 +1,5 @@
-@include('uiPages.include.header')
 
+@include('uiPages.include.header')
 @include('uiPages.include.navbar')
 
 
