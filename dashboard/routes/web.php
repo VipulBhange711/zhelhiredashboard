@@ -2,9 +2,11 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AutherController;
+use App\Http\Controllers\CourseController;
 use App\Http\Middleware\AuthArea;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MyController;
+
 
 
 
@@ -28,6 +30,11 @@ Route::get('/about', [MyController::class, 'about'])->name('about');
 Route::get('/vip', [MyController::class, 'vip'])->name('vip');
 Route::view('/viewCourse','uiPages.view_courses')->name('viewCourses');
 Route::post('/inquery', [MyController::class, 'inquery'])->name('inquery.post');
+
+// Course Route
+Route::get('/webCourseNow',[CourseController::class,'webview']);
+Route::get('/webCourse',[CourseController::class,'webCourse'])->name('Web.course');
+// Course Route 
 
 
 Route::middleware([AuthArea::class])->group(function () {

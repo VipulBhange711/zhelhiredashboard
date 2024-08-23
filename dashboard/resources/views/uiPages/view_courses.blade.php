@@ -277,7 +277,7 @@ https://templatemo.com/tm-573-eduwell
 
                                                     <div class="text-button">
 
-                                                        <a href="{{ route('contact') }}">Subscribe Course</a>
+                                                        <a href="{{ route('Web.course') }}">Subscribe Course</a>
 
                                                     </div>
 

@@ -111,7 +111,7 @@
 
                             <li class="scroll-to-section"><a href="{{ route('home') }}#services">Services</a></li>
 
-                            <li class="scroll-to-section"><a href="{{ route('home') }}#courses">Courses</a></li>
+                            <li class="scroll-to-section"><a href="{{ route('viewCourses') }}">Courses</a></li>
 
                             <li class="has-sub">
 
