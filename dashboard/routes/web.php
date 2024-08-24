@@ -6,10 +6,7 @@ use App\Http\Controllers\CourseController;
 use App\Http\Middleware\AuthArea;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MyController;
-
-
-
-
+use App\Http\Controllers\OfficeController;
 
 Route::view("/lg", "components.dashboard.auth.login")->name('login');
 Route::post("login", [AuthController::class, "login"])->name('login.post');
@@ -41,6 +38,9 @@ Route::middleware([AuthArea::class])->group(function () {
     Route::get('/dashboard', [AuthController::class, "dashboard"])->name('welcome');
     Route::get('/JobList', [AutherController::class, "joblist"])->name('joblist');
     Route::get('users', [AutherController::class, 'index'])->name('index');
+
+    Route::get('/paymentSlip',[OfficeController::class,'paymentSlip'])->name('paymentSlip');
+    Route::post('/InternshipLetter',[OfficeController::class,'InternshipLetter'])->name('InternshipLetter');
 });
 
 
