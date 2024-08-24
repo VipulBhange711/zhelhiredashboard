@@ -19,10 +19,7 @@
 
                         <h4>What You Can <em>Learn</em></h4>
 
-                        <p>You just think about TemplateMo whenever you need free CSS templates for your business
-
-                            website</p>
-
+                    
                     </div>
 
                 </div>
@@ -99,8 +96,9 @@
                                                     <span class="last-span">100% Placement Guarantee</span>
 
                                                     <div class="text-button">
+                                                    <input type="button" class="button-92" role="button" onclick="location.href='{{ route('Web.course') }}';" value="Check Out Full Course" />
 
-                                                        <a href="{{ route('Web.course') }}">Subscribe Course</a>
+                                                   
 
                                                     </div>
 
@@ -152,7 +150,8 @@
 
                                                     <div class="text-button">
 
-                                                        <a href="{{ route('contact') }}">Subscribe Course</a>
+                                                    <input type="button" class="button-92" role="button" onclick="location.href='{{ route('Web.course') }}';" value="Check Out Full Course" />
+
 
                                                     </div>
 
@@ -204,7 +203,8 @@
 
                                                     <div class="text-button">
 
-                                                        <a href="{{ route('contact') }}">Subscribe Course</a>
+                                                    <input type="button" class="button-92" role="button" onclick="location.href='{{ route('Web.course') }}';" value="Check Out Full Course" />
+
 
                                                     </div>
 
@@ -256,7 +256,8 @@
 
                                                     <div class="text-button">
 
-                                                        <a href="{{ route('contact') }}">Subscribe Course</a>
+                                                    <input type="button" class="button-92" role="button" onclick="location.href='{{ route('Web.course') }}';" value="Check Out Full Course" />
+
 
                                                     </div>
 
