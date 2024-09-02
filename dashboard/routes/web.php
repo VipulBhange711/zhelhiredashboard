@@ -41,6 +41,7 @@ Route::middleware([AuthArea::class])->group(function () {
 
     Route::get('/paymentSlip',[OfficeController::class,'paymentSlip'])->name('paymentSlip');
     Route::post('/InternshipLetter',[OfficeController::class,'InternshipLetter'])->name('InternshipLetter');
+    Route::post('/AppraisalLetter',[OfficeController::class,'AppraisalLetter'])->name('AppraisalLetter');
 });
 
 

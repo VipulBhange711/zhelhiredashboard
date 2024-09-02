@@ -143,6 +143,38 @@
                 <!-- <a href="{{route('InternshipLetter')}}" class="small-box-footer">More info <i class="fas fa-page"></i></a> -->
               </div>
             </section>
+            <section class="col-lg-3 connectedSortable text-white">
+
+              <div class="small-box " style="background-color: #2d589f">
+                <div class="inner">
+                  <h3>65</h3>
+
+                  <p>Appraisal Letter</p>
+                </div>
+                <div class="icon">
+                  <i style="color:white;" class="fa fa-plane color:white"></i>
+                </div>
+
+                <a data-bs-toggle="modal" data-bs-target="#AppraisalLetter" class="small-box-footer">More info <i class="fas fa-page"></i></a>
+                <!-- <a href="{{route('InternshipLetter')}}" class="small-box-footer">More info <i class="fas fa-page"></i></a> -->
+              </div>
+            </section>
+            <section class="col-lg-3 connectedSortable text-white">
+
+              <div class="small-box " style="background-color: #2d589f">
+                <div class="inner">
+                  <h3>65</h3>
+
+                  <p>Custom  Salary Slip</p>
+                </div>
+                <div class="icon">
+                  <i style="color:white;" class="fa fa-plane color:white"></i>
+                </div>
+
+                <a data-bs-toggle="modal" data-bs-target="#AppraisalLetter" class="small-box-footer">More info <i class="fas fa-page"></i></a>
+                <!-- <a href="{{route('InternshipLetter')}}" class="small-box-footer">More info <i class="fas fa-page"></i></a> -->
+              </div>
+            </section>
           </div>
 
         </div>
@@ -163,6 +195,57 @@
           </div>
           <div class="modal-body">
             <form action="{{route('InternshipLetter')}}" method="post">
+              @csrf
+              <div class="mb-3">
+                <label for="" class="form-label">Company Name</label>
+                <input type="text" class="form-control" id="" name="companyName" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Company Email</label>
+                <input type="email" class="form-control" id="" name="companyEmail" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Company Website</label>
+                <input type="text" class="form-control" id="" name="companyWebsite" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Candidate Name</label>
+                <input type="text" name="candidateName" class="form-control" id="">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Profile</label>
+                <input type="text" name="Profile" class="form-control" id="">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Generage Date</label>
+                <input type="date" name="generateDate" class="form-control" id="">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Start At</label>
+                <input type="date" name="startAt" class="form-control" id="">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">End At</label>
+                <input type="date" name="EndAt" class="form-control" id="">
+              </div>
+             
+              <button type="submit" class="col-12 btn btn-primary ">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="AppraisalLetter" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Enter Details AppraisalLetter</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="{{route('AppraisalLetter')}}" method="post">
               @csrf
               <div class="mb-3">
                 <label for="" class="form-label">Company Name</label>

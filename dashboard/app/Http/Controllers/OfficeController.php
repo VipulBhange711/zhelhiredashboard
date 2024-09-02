@@ -14,12 +14,34 @@ class OfficeController extends Controller
     public function paymentSlip(Request $request)
     {
 
+        $data = [
+            'date' => now()->format('d/m/Y'),
+            'employeeName' => 'Vipul Bhange', // Replace with actual employee name
+            'designation' => 'PHP Laravel Developer', // Replace with actual designation
+            'companyName' => 'Distinct Technology',
+            'department' => 'Development',
+            'location' => 'Nagpur HO',
+            'dateOfJoining' => '30-Dec-2023', // Replace with actual joining date
+            'month' => 'March – 2024', // Replace with actual month
+            'workingDays' => 26,
+            'presentDays' => 24,
+            'absentDays' => 2,
+            'grossSalary' => '₹12,800.00',
+            'deduction' => '₹200.00',
+            'netToHand' => '₹10,876.00',
+        ];
+
+   
         $path = public_path() . '/images/dtrbg.png';
+
         $type = pathinfo($path, PATHINFO_EXTENSION);
-        $data = file_get_contents($path);
-        $image = 'data:image/' . $type . ';base64,' . base64_encode($data);
-        $pdf = Pdf::loadView('components.dashboard.page.paymentslip', ['image' => $image]);
-        return $pdf->stream('Salary.pdf');
+        $data['logo'] = 'data:image/' . $type . ';base64,' . base64_encode(file_get_contents($path));
+    
+        // Generate PDF
+        $pdf = Pdf::loadView('components.dashboard.page.paymentslip',$data);
+
+        // Stream the PDF
+        return $pdf->stream('Salary_Slip.pdf');
     }
     public function InternshipLetter(Request $request)
     {
@@ -80,5 +102,29 @@ class OfficeController extends Controller
 
         // Returning the PDF to be streamed in the browser
         return $pdf->stream('Internship_Letter.pdf');
+    }
+    public function AppraisalLetter(Request $request)
+    {
+
+        $data = [
+            'id' => 'EMP12345', // Example ID, should be dynamic
+            'employeeName' => 'Vipul Bhange', // Replace with actual employee name
+            'companyName' => 'Distinct Technology',
+            'companyWebsite' => 'www.distincttech.com',
+            'companyEmail' => 'hr@distincttech.com',
+        ];
+    
+        // Logo image handling
+        $path = public_path('/images/ZhelhireBanner.png'); // replace with your actual path
+        $type = pathinfo($path, PATHINFO_EXTENSION);
+        $data['logo'] = 'data:image/' . $type . ';base64,' . base64_encode(file_get_contents($path));
+    
+        // Generate PDF
+        $pdf = Pdf::loadView('components.dashboard.page.Appraisal_Letter', $data);
+        
+        // Stream the PDF
+        return $pdf->stream('Appraisal_Letter.pdf');
+        
+        // return $pdf->stream('Internship_Letter.pdf');
     }
 }
